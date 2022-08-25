@@ -200,6 +200,7 @@ body{
     .contact-nav .link:focus{
        color: var(--accent-color);
    }
+   
 
    .site-nav{
       position: relative;
@@ -387,7 +388,7 @@ background: rgba(47, 48, 58, 0.8)
 }
 
 .link:focus{
-  background-color: var(--accent-color);
+ color: var(--accent-color);
 }
 
    
