@@ -922,6 +922,7 @@ color: var(--accent-color);
 pointer-events: fill;
 background-color: var(--main-background);
 border: 0;
+border-radius: 50%;
 
 
 }
