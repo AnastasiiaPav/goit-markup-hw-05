@@ -925,13 +925,9 @@ border: 0;
 
 
 }
-.backdrop.is-hidden.modal{
-   transform: translate(-50%, -50%) scale(0.9) ;
-}
+
 
 .modal{
-
-   
    position: absolute;
 top: 50%;
 left: 50%;
@@ -940,6 +936,7 @@ height: 581px;
 background-color: #FFFFFF;
 border-radius: 4px;
 
-transform: translate(-50%, -50%) scale(0.9);
+transform: translate(-50% , -50%) ;
+
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
