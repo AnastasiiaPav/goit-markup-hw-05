@@ -892,6 +892,7 @@ color: var(--accent-color);
 .backdrop.is-hidden{
    opacity: 0;
    pointer-events: none;
+   visibility:hidden;
 }
  
 .svg-modal{
@@ -902,6 +903,8 @@ color: var(--accent-color);
    border-radius: 50%;
    border: 1px solid rgba(0, 0, 0, 0.1);
   right: 0;
+  bottom: 0;
+  top: 0;
   margin-top: 8px;
   margin-right: 8px;
   cursor: pointer;
@@ -913,8 +916,10 @@ color: var(--accent-color);
    height: 50px ;
    position: absolute;
    right: 0;
-   opacity: 0;
+   opacity: 1;
 pointer-events: fill;
+background-color: var(--main-background);
+border: 0;
 }
 
 .modal{
@@ -927,5 +932,6 @@ width: 528px;
 height: 581px;
 background-color: #FFFFFF;
 border-radius: 4px;
+
 
 }
