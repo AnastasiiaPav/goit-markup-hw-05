@@ -918,6 +918,7 @@ color: var(--accent-color);
    height: 50px ;
    position: absolute;
    right: 0;
+   top: 0;
    opacity: 1;
 pointer-events: fill;
 background-color: var(--main-background);
